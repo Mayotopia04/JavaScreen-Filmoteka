@@ -1,0 +1,21 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0" xmlns="http://www.w3.org/2000/svg" overflow="hidden" fill="none">
+<defs>
+
+<!--logo icon-->
+<symbol id="logo-icon" viewBox="0 0 24 24">
+  <path d="M19.82 2H4.18C2.97602 2 2 2.97602 2 4.18V19.82C2 21.024 2.97602 22 4.18 22H19.82C21.024 22 22 21.024 22 19.82V4.18C22 2.97602 21.024 2 19.82 2Z" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7 2V22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17 2V22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M2 12H22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M2 7H7" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M2 17H7" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17 17H22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17 7H22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="icon-heart" viewBox="0 0 32 32">
+  <path fill="#FF6B08" d="M23.6 2c-3.363 0-6.258 2.736-7.599 5.594-1.342-2.858-4.237-5.594-7.601-5.594-4.637 0-8.4 3.764-8.4 8.401 0 9.433 9.516 11.906 16.001 21.232 6.13-9.268 15.999-12.1 15.999-21.232 0-4.637-3.763-8.401-8.4-8.401z"></path>
+</symbol>
+
+</defs>
+</svg>

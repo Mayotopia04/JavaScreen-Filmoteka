@@ -1,0 +1,76 @@
+<style type="text/css">
+  a.orange-underline {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 4px solid #ff6b08;
+  }
+
+  a:hover.hovermouse {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 4px solid #ff6b08;
+    text-decoration-style: solid;
+    direction: ltr;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+</style>
+
+<div class="col">
+  <div class="row">
+    <div class="col text-start">
+      <a href="./index.html" class="film-nav link">
+        <span class="film-logo"
+          ><img src="./images/film.png" width="24" height="24" alt="film icon"
+        /></span>
+        <span class="logo-name link animate__animated animate__bounceIn"
+          >Filmoteka</span>
+      </a>
+    </div>
+
+    <div class="col text-end">
+      <nav class="nav-list">
+        <ul class="list link header-list">
+          <li>
+            <a
+              href="./index.html"
+              class="link-list active-link current link orange-underline"
+              >Home</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="./library.html"
+              class="link-list link hovermouse"
+              >My Library</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col text-center">
+      <form>
+      <input
+        id="search-input"
+        type="text"
+        class="search-input"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search for movies"
+      />
+      <button
+        class="clapper-btn animate__animated animate__rubberBand"
+        type="submit"
+        id="search-button"
+        title="Search"
+      >
+        🎬
+      </button>
+    </form>
+    </div>
+  </div>
+</div>

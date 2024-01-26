@@ -1,0 +1,118 @@
+.link{
+  text-decoration: none;
+  list-style: none;
+}
+
+a{
+  cursor: pointer;
+}
+
+header {
+    background: url(../images/header-bg-d.png), lightgray 0px 0.655px / 100% 292.273% no-repeat;background-position: center;
+    background-size: cover;
+    // width: 1024px;
+    height: 230px;
+    padding-top: 41px;
+}
+
+.nav-list{
+  display: flex;
+  float: right;
+  padding-bottom: 57px;
+}
+
+
+.header-list{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  gap: 39px;
+  padding-right: 71px;
+
+}
+
+.hovermouse{
+  color: #FFFFFF;
+  
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+
+
+}
+
+.film-nav{
+  display: flex;
+  // padding-top: 41px;
+  padding-left: 71px;
+
+  @media screen and (min-width: 768px) {
+
+  }
+}
+
+.film-logo{
+
+  padding-top: 3px;
+  padding-right: 10px;
+}
+
+
+.logo-name{
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: none;
+
+  @media screen and (min-width: 768px){
+    display: inline;
+  }
+
+}
+
+.search-form{
+  padding-top: 57px;
+  // width: 336px;this doesn't center when adjusted
+}
+
+.search-input{
+  width: 336px;
+  border-color: #FF6B08;
+
+}
+
+.clapper-btn{
+  font-size: 17px;
+}
+
+.clapper-btn:hover, 
+.clapper-btn:focus {
+  background-color: #FF6B08;
+  font-size: 22px;
+  
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container{
+  padding-top: 60px;
+  -webkit-padding-start: 71px;;
+  // justify-content: space-between;
+  // padding-left: 71px;
+  // padding-right: 71px;
+  
+  
+}
