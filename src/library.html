@@ -23,6 +23,155 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
+    <style type="text/css">
+      .my-library-header {
+        background: url(./images/mylibraryheader-bg-d.png),
+          lightgray 0px 0.655px / 100% 292.273% no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 230px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    
+      li.orange-underline {
+        border-bottom: 4px solid #ff6b08;
+      }
+    
+      /* a {
+        cursor: pointer;
+      } */
+    
+      .link-font:hover {
+        color: #ffffff;
+        text-decoration: none;
+        border-bottom: 4px solid #ff6b08;
+        text-decoration-style: solid;
+        direction: ltr;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    
+      .link-font {
+        text-decoration: none;
+        color: white;
+      }
+    
+      .selected-button {
+        background-color: #ff6b01 !important;
+        border-color: #ff6b01 !important;
+      }
+    
+      .watched-button {
+        border-radius: 5px;
+        /* background-color: #ff6b01;
+        border-color: #ff6b01; */
+        width: 136px;
+        height: 44px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 133.333% */
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+      }
+    
+      .library-button {
+        border-radius: 5px;
+        border: 1px solid #fff;
+        width: 136px;
+        height: 44px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 133.333% */
+        text-transform: uppercase;
+        background: none;
+        cursor: pointer;
+      }
+    
+      .library-button:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    
+      .button-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 45px;
+      }
+    
+      .logo-font {
+        color: #fff;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    
+      .list {
+        list-style-type: none;
+        font-family: Roboto;
+        color: #fff;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-right: 40px;
+        display: flex;
+        gap: 40px;
+    
+      }
+        @media screen and (min-width: 768px) {
+          .list {
+          margin-right: 80px;
+        }
+      }
+    
+      .logo {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 40px;
+        
+      }
+      @media screen and (min-width: 768px) {
+        .logo {
+          margin-left: 80px;
+        }
+      }
+      .logo-font {
+        display: none;
+        margin: 0;
+        padding: 0;
+      }
+      @media screen and (min-width: 768px) {
+        .logo-font {
+          display: block;
+        }
+      }
+      .header-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 90px;
+      }
+    
+    </style>
   </head>
   <body>
     <div class="container-fluid p-0 m-0">
